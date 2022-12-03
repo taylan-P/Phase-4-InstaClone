@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import { useNavigate } from "react-router-dom";
 
 export default function Feed() {
@@ -8,7 +8,7 @@ export default function Feed() {
 
     return (
         <div>
-            <Header />
+            <Navbar />
 
         </div>
 
